@@ -5,7 +5,9 @@ In this case, the distributed programming architecture approach is used to meet 
 In distributed environment, it is possible for some computers to be overloaded, while others under loaded. To remedy this problem, load balancing is needed. 
 Within the scope of this study, the work on HLA based dynamic load balancing have been studied, consequently a new dynamic load balancing approach has been proposed.
 As an example application, on RTI (Run Time Infrastructure), a wireless sensor network simulation is chosen.  The load balancing algorithm utilises migration of federate state, in case of imbalance. The results show that the load balancing under certain conditions can provide higher performance compared to alternative.
-https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true
+
+
+
 ![Agent Architecture](doc/agent.jpg)
 
 
