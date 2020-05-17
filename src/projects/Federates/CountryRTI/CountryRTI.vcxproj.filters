@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\WSN">
+      <UniqueIdentifier>{5bc76ec3-9e9e-4453-9ab9-a6450be8cc1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{52489fb3-fdbd-4633-bd67-8533ca2d8ece}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\WSN">
+      <UniqueIdentifier>{9e8fb8bb-d5ee-46c7-acb2-4f577499f6d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="FederateCreater.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WSNBoard.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WSFederate.cpp">
+      <Filter>Source Files\WSN</Filter>
+    </ClCompile>
+    <ClCompile Include="WSFederateAmb.cpp">
+      <Filter>Source Files\WSN</Filter>
+    </ClCompile>
+    <ClCompile Include="WSN.cpp">
+      <Filter>Source Files\WSN</Filter>
+    </ClCompile>
+    <ClCompile Include="WSNFederateAmb.cpp">
+      <Filter>Source Files\WSN</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Defaults.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FederateCreater.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WirelessSensor.h">
+      <Filter>Header Files\WSN</Filter>
+    </ClInclude>
+    <ClInclude Include="WSFederate.h">
+      <Filter>Header Files\WSN</Filter>
+    </ClInclude>
+    <ClInclude Include="WSFederateAmb.h">
+      <Filter>Header Files\WSN</Filter>
+    </ClInclude>
+    <ClInclude Include="WSN.h">
+      <Filter>Header Files\WSN</Filter>
+    </ClInclude>
+    <ClInclude Include="WSNFederateAmb.h">
+      <Filter>Header Files\WSN</Filter>
+    </ClInclude>
+    <ClInclude Include="WSNBoard.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ColorBar.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\..\bin\ColorBar.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="WSNBoard.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>
